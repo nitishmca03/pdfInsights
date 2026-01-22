@@ -29,29 +29,20 @@ ENV/
 
 # Environment variables
 .env
+.env*.local
 
 # OS
 .DS_Store
 Thumbs.db
 
-# --- Ignore Old React/Frontend Files ---
-# These files are from the previous version and should not be pushed to the Python repo.
+# Dependencies & Build
 node_modules/
 dist/
 build/
-coverage/
-*.log
-index.tsx
-index.html
-App.tsx
-types.ts
-components/
-services/
-utils/
-vite.config.ts
-tsconfig.json
-package.json
-package-lock.json
 
+# IDE
+.vscode/
+.idea/
+
+# Vercel
 .vercel
-.env*.local
