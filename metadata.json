@@ -1,0 +1,6 @@
+{
+  "name": "PDF Insight ",
+  "description": "Streamlit application to summarize and chat with PDFs using Gemini 3 Flash and PyPDF.",
+  "main": "streamlit_app.py",
+  "requestFramePermissions": []
+}

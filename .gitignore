@@ -1,0 +1,54 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Env
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# --- Ignore Old React/Frontend Files ---
+# These files are from the previous version and should not be pushed to the Python repo.
+node_modules/
+dist/
+build/
+coverage/
+*.log
+index.tsx
+index.html
+App.tsx
+types.ts
+components/
+services/
+utils/
+vite.config.ts
+tsconfig.json
+package.json
+package-lock.json
