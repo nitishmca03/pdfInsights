@@ -71,7 +71,7 @@ def create_zip_buffer():
 # -----------------------------------------------------------------------------
 
 def get_ai_client():
-    api_key = os.environ.get("API_KEY") or "AIzaSyBKF2wmPNYaZhg50aF8dY35A3q2kZD7OOc"
+    api_key = os.environ.get("API_KEY")
     if not api_key:
         st.error("⚠️ API_KEY environment variable is missing.")
         st.stop()
